@@ -1,0 +1,179 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(4, 4, 71);
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+
+}
+
+nav ul {
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px
+
+}
+
+nav {
+    display: block;
+    color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: #555555;
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: white;
+}
+
+#visited-countries-image {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+}
+
+#country-list {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.bg-image {
+    background-image:url(/images/background.jpg);
+    height: 25%;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+
+.name-text {
+    color:rgb(68, 0, 255);
+    opacity: 1.0;
+    -webkit-text-stroke: 4px rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+
+#main {
+    width:100%;
+    float: bottom;
+    height: 100%;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#profile {
+    text-align: center;
+    
+}
+
+.footer-articles ul {
+    list-style-type: none;
+    padding-left: 0px;
+
+}
+
+#profile h2 {
+    display: inline;
+}
+
+#personal-details {
+    margin-right: 30px;
+    text-align: center;
+
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-articles {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+}
+
+.footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer-articles, .main-articles {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-right: 5%;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    background-color: #afafaf;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.profile-image-star {
+    position: relative;
+    display: inline;
+
+}
+
+#profile-pic {
+    width: 300px;
+}
+
+.borderimage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: 20;
+    width: 300px;
+}
+
+form {
+    margin-top: 5px;
+}
+
+textarea, input {
+    background-color: #aeadc7;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer-articles h1 {
+    margin-bottom: 20px;
+}
